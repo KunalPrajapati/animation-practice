@@ -6,6 +6,8 @@ import Basics from './tutorials/AnimatedAPI/Basics';
 import Value from './tutorials/AnimatedAPI/Value';
 import Interpolation from './tutorials/AnimatedAPI/Interpolation';
 import AnimTypes from './tutorials/AnimatedAPI/AnimTypes';
+import EasingAnimation from './tutorials/AnimatedAPI/EasingAnimation';
+import NestingAnimationFunc from './tutorials/AnimatedAPI/NestingAnimationFunc';
 
 const App = () => {
   return (
@@ -15,8 +17,14 @@ const App = () => {
       {/* <NoLibrary /> */}
       {/* <Basics /> */}
       {/* <Value /> */}
+
+      {/* interpolation, extrapolation, differential clamp */}
       {/* <Interpolation /> */}
-      <AnimTypes/>
+
+      {/* <AnimTypes/> */}
+      {/* <EasingAnimation /> */}
+      <NestingAnimationFunc />
+
 
     </SafeAreaView>
   );
