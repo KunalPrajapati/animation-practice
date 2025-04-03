@@ -70,6 +70,7 @@ const NestingAnimationFunc = () => {
                 duration: 1000,
                 useNativeDriver: true,
             }),
+            Animated.delay(2000),
             Animated.timing(animValue2, {
                 toValue: 1,
                 duration: 1000,
