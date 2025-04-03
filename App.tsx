@@ -12,6 +12,8 @@ import NestingAnimationFunc from './tutorials/AnimatedAPI/NestingAnimationFunc';
 import Event from './tutorials/AnimatedAPI/Event';
 import CustomAnimatedComponent from './tutorials/AnimatedAPI/CustomAnimatedComponent';
 import LayoutAnimations from './tutorials/AnimatedAPI/LayoutAnimations';
+import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
+import RnBasic from './tutorials/Reanimated/RnBasic';
 
 
 const App = () => {
@@ -31,7 +33,12 @@ const App = () => {
       {/* <NestingAnimationFunc /> */}
       {/* <Event/> */}
       {/* <CustomAnimatedComponent/> */}
-      <LayoutAnimations />
+      {/* <LayoutAnimations /> */}
+      {/* <ScrollEvent /> */}
+
+
+      {/* Reanimated */}
+      <RnBasic />
 
     </SafeAreaView>
   );
