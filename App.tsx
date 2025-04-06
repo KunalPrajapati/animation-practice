@@ -1,19 +1,14 @@
 /* eslint-disable react-native/no-inline-styles */
 
-import { View, Text, SafeAreaView, LayoutAnimation } from 'react-native';
+import { Text, SafeAreaView } from 'react-native';
 import React from 'react';
-import NoLibrary from './tutorials/AnimatedAPI/NoLibrary';
-import Basics from './tutorials/AnimatedAPI/Basics';
-import Value from './tutorials/AnimatedAPI/Value';
-import Interpolation from './tutorials/AnimatedAPI/Interpolation';
-import AnimTypes from './tutorials/AnimatedAPI/AnimTypes';
-import EasingAnimation from './tutorials/AnimatedAPI/EasingAnimation';
-import NestingAnimationFunc from './tutorials/AnimatedAPI/NestingAnimationFunc';
-import Event from './tutorials/AnimatedAPI/Event';
-import CustomAnimatedComponent from './tutorials/AnimatedAPI/CustomAnimatedComponent';
-import LayoutAnimations from './tutorials/AnimatedAPI/LayoutAnimations';
-import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
-import RnBasic from './tutorials/Reanimated/RnBasic';
+import ListAnimations from './tutorials/Reanimated/ListAnimations';
+import KeyFrameAnimations from './tutorials/Reanimated/KeyFrameAnimations';
+import Worklets from './tutorials/Reanimated/Worklets';
+import SkippingAnimations from './tutorials/Reanimated/SkippingAnimations';
+import LayoutTransition from './tutorials/Reanimated/LayoutTransition';
+import GestureHandling from './tutorials/Reanimated/GestureHandling';
+import Threading from './tutorials/Reanimated/Threading';
 
 
 const App = () => {
@@ -38,7 +33,22 @@ const App = () => {
 
 
       {/* Reanimated */}
-      <RnBasic />
+
+      {/* <RnBasic /> */}
+      {/* <Methods /> */}
+      {/* <Hooks /> */}
+      {/* <ScrollHandler /> */}
+      {/* <ScrollToFn /> */}
+      {/* <AnimatedScrollOffset /> */}
+      {/* <KeyboardHandler /> */}
+      {/* <AnimationsShowcase /> */}
+      {/* <LayoutTransition /> */}
+      {/* <SkippingAnimations/> */}
+      {/* <ListAnimations/> */}
+      {/* <KeyFrameAnimations/> */}
+      {/* <Worklets/> */}
+      {/* <GestureHandling/> */}
+      <Threading/>
 
     </SafeAreaView>
   );
